@@ -6,11 +6,17 @@ import SimulationStatus from "./components/SimulationStatus"
 function App() {
   return (
     
-      <div>
-        <Form/>
-        <SimulationStatus/>
-        
-      </div>    
+      <div className="main-wrapper">
+            {/* Configuration Form */}
+            <div className="container">
+                <Form />
+            </div>
+
+            {/* Simulation Status on the Right */}
+            <div className="simulation-status">
+                <SimulationStatus />
+            </div>
+        </div>   
       
     
   );

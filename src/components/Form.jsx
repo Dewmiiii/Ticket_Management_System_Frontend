@@ -113,6 +113,7 @@ function Form() {
                             placeholder="Enter ticket release rate"
                             value={config.ticketReleaseRate}
                             onChange={handleChange}
+                            
                         />
                         {errors.ticketReleaseRate && <small className="text-danger">{errors.ticketReleaseRate}</small>}
                     </div>
