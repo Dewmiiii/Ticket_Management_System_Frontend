@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Add space between the content and screen edges */
+body {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  box-sizing: border-box; /* Ensures consistent box-sizing */
+  background-color: #f4f7fa; /* Optional: Light background color */
+}
+
+/* Center the root container */
+#root {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Full viewport height */
+  padding: 2rem; /* Add space between content and screen edges */
+}
+
+/* Style the form container */
+.container {
+  width: 100%;
+  max-width: 800px; /* Restrict width for responsiveness */
+  background: white; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 2rem; /* Space inside the container */
+  text-align: left; /* Align text to the left */
+}
